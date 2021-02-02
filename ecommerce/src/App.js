@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Layout from './layout';
+import Header from './layout/Header/';
+import Footer from './layout/Footer';
 import Main from './pages';
 
 function App() {
- <Layout>
-   <Pages/>
- </Layout>
-   
+  <>
+    <Header/>
+    <Pages/>
+    <Footer/>
+    
+   </>
   
   
 }
